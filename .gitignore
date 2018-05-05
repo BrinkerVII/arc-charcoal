@@ -13,7 +13,5 @@ missing
 dist/
 
 common/**/*.png
-!common/gtk-3.0/tumbnail.png
-!common/gtk-3.0/tumbnail-dark.png
-!common/metacity-1/tumbnail.png
-!common/metacity-1/tumbnail-dark.png
+!**/tumbnail.png
+!**/tumbnail-dark.png
