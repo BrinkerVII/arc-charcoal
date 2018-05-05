@@ -13,6 +13,8 @@ missing
 dist/
 pkg/
 *.xz
+*.gz
+*.deb
 
 common/**/*.png
 !**/thumbnail.png
