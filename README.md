@@ -8,13 +8,13 @@ Arc is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell w
 
 ![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
 
-##### Arc-Darker
+##### Arc-Charcoaler
 
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
+![A screenshot of the Arc-Charcoaler theme](http://i.imgur.com/NC6dqyl.png)
 
-##### Arc-Dark
+##### Arc-Charcoal
 
-![A screenshot of the Arc-Dark theme](http://i.imgur.com/5AGlCnA.png)
+![A screenshot of the Arc-Charcoal theme](http://i.imgur.com/5AGlCnA.png)
 
 ## Installation
 
@@ -95,9 +95,9 @@ Other options to pass to autogen.sh are
                                Note 2: For GNOME 3.24, use --with-gnome-version=3.22
                                (this works for now, the build system will be improved in the future)
 
-After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Darker` or `Arc-Dark` as Window/GTK+ theme and `Arc` or `Arc-Dark` as GNOME Shell/Cinnamon theme.
+After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `Arc`, `Arc-Charcoaler` or `Arc-Charcoal` as Window/GTK+ theme and `Arc` or `Arc-Charcoal` as GNOME Shell/Cinnamon theme.
 
-If the `--disable-transparency` option was used, the theme will be installed as `Arc-solid`, `Arc-Darker-solid` and `Arc-Dark-solid`.
+If the `--disable-transparency` option was used, the theme will be installed as `Arc-solid`, `Arc-Charcoaler-solid` and `Arc-Charcoal-solid`.
 
 ## Uninstall
 
@@ -107,7 +107,7 @@ Run
 
 from the cloned git repository, or
 
-    sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+    sudo rm -rf /usr/share/themes/{Arc,Arc-Charcoaler,Arc-Charcoal}
 
 ## Extras
 
@@ -121,14 +121,14 @@ A theme for Firefox is available at https://github.com/horst3180/arc-firefox-the
 The Arc icon theme is available at https://github.com/horst3180/arc-icon-theme
 
 ### Chrome/Chromium theme
-To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or arc-dark-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
+To install the Chrome/Chromium theme go to the `extra/Chrome` folder and drag and drop the arc-theme.crx or Arc-Charcoal-theme.crx file into the Chrome/Chromium window. The source of the Chrome themes is located in the source "Chrome/arc-theme" folder.
 
 ### Plank theme
 To install the Plank theme, copy the `extra/Arc-Plank` folder to `~/.local/share/plank/themes` or to `/usr/share/plank/themes` for system-wide use.
 Now open the Plank preferences window by executing `plank --preferences` from a terminal and select `Arc-Plank` as the theme.
 
-### Arc-Dark for Ubuntu Software Center
-The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/arc-dark-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
+### Arc-Charcoal for Ubuntu Software Center
+The Arc Dark theme for the Ubuntu Software Center by [mervick](https://github.com/mervick) can be installed from [here](https://github.com/mervick/Arc-Charcoal-software-center). It solves readability issues with Arc Dark and the Ubuntu Software Center.
 
 ## Troubleshooting
 

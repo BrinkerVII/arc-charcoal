@@ -1,11 +1,11 @@
 if !ENABLE_TRANSPARENCY
 themedir        = $(datadir)/themes/Arc-solid
-themedarkerdir  = $(datadir)/themes/Arc-Darker-solid
-themedarkdir    = $(datadir)/themes/Arc-Dark-solid
+themedarkerdir  = $(datadir)/themes/Arc-Charcoaler-solid
+themedarkdir    = $(datadir)/themes/Arc-Charcoal-solid
 else
 themedir        = $(datadir)/themes/Arc
-themedarkerdir  = $(datadir)/themes/Arc-Darker
-themedarkdir    = $(datadir)/themes/Arc-Dark
+themedarkerdir  = $(datadir)/themes/Arc-Charcoaler
+themedarkdir    = $(datadir)/themes/Arc-Charcoal
 endif
 
 ithemedir       = $(DESTDIR)$(themedir)

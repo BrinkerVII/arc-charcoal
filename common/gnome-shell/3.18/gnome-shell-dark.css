@@ -30,41 +30,41 @@ stage {
 .button, .notification-banner .notification-button,
 .notification-banner:hover .notification-button,
 .notification-banner:focus .notification-button, .hotplug-notification-item {
-  text-shadow: 0 1px rgba(64, 69, 82, 0);
+  text-shadow: 0 1px rgba(34, 34, 34, 0);
   color: #D3DAE3;
-  background-color: #444a58;
-  border: 1px solid #2b2e39;
-  box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+  background-color: #272727;
+  border: 1px solid #202020;
+  box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
   .button:focus, .notification-banner .notification-button:focus, .hotplug-notification-item:focus {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #D3DAE3;
-    background-color: #444a58;
+    background-color: #272727;
     border: 1px solid #5294e2;
-    box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+    box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
   .button:hover, .notification-banner .notification-button:hover, .hotplug-notification-item:hover {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #D3DAE3;
-    background-color: #505666;
-    border: 1px solid #2b2e39;
-    box-shadow: inset 0 1px rgba(80, 86, 102, 0.05); }
+    background-color: #343434;
+    border: 1px solid #202020;
+    box-shadow: inset 0 1px rgba(52, 52, 52, 0.05); }
   .button:hover:focus, .notification-banner .notification-button:hover:focus, .hotplug-notification-item:hover:focus {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #D3DAE3;
-    background-color: #444a58;
+    background-color: #272727;
     border: 1px solid #5294e2;
-    box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+    box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
   .button:active, .notification-banner .notification-button:active, .hotplug-notification-item:active, .button:active:focus, .notification-banner .notification-button:active:focus, .hotplug-notification-item:active:focus {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #ffffff;
     background-color: #5294e2;
-    border: 1px solid #2b2e39;
+    border: 1px solid #202020;
     box-shadow: inset 0 1px rgba(82, 148, 226, 0.05); }
   .button:insensitive, .notification-banner .notification-button:insensitive, .hotplug-notification-item:insensitive {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: rgba(211, 218, 227, 0.45);
-    border: 1px solid rgba(43, 46, 57, 0.55);
-    background-color: rgba(68, 74, 88, 0.55);
-    box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+    border: 1px solid rgba(32, 32, 32, 0.55);
+    background-color: rgba(39, 39, 39, 0.55);
+    box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
 
 StEntry {
   padding: 7px;
@@ -75,19 +75,19 @@ StEntry {
   transition-duration: 300ms;
   border-radius: 3px;
   color: #D3DAE3;
-  background-color: #404552;
-  border: 1px solid #2b2e39;
-  box-shadow: inset 0 2px 4px rgba(64, 69, 82, 0.05); }
+  background-color: #222222;
+  border: 1px solid #202020;
+  box-shadow: inset 0 2px 4px rgba(34, 34, 34, 0.05); }
   StEntry:focus, StEntry:hover {
     color: #D3DAE3;
-    background-color: #404552;
+    background-color: #222222;
     border: 1px solid #5294e2;
-    box-shadow: inset 0 2px 4px rgba(64, 69, 82, 0.05); }
+    box-shadow: inset 0 2px 4px rgba(34, 34, 34, 0.05); }
   StEntry:insensitive {
     color: rgba(211, 218, 227, 0.45);
-    background-color: #3c414e;
-    border-color: 1px solid #313440;
-    box-shadow: inset 0 2px 4px rgba(60, 65, 78, 0.05); }
+    background-color: #282828;
+    border-color: 1px solid #272727;
+    box-shadow: inset 0 2px 4px rgba(40, 40, 40, 0.05); }
   StEntry StIcon.capslock-warning {
     icon-size: 16px;
     warning-color: #F27835;
@@ -105,21 +105,21 @@ StScrollBar {
     min-width: 5px;
     min-height: 5px; }
   StScrollBar StBin#trough {
-    background-color: rgba(64, 69, 82, 0.1);
+    background-color: rgba(34, 34, 34, 0.1);
     border-radius: 8px; }
   StScrollBar StButton#vhandle, StScrollBar StButton#hhandle {
     border-radius: 4px;
-    background-color: #767b87;
+    background-color: #717377;
     border: 0px solid;
     margin: 0px; }
     StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
-      background-color: #676b78; }
+      background-color: #606265; }
     StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
       background-color: #5294e2; }
 
 .slider {
   -slider-height: 4px;
-  -slider-background-color: #2b2e39;
+  -slider-background-color: #202020;
   -slider-border-color: transparent;
   -slider-active-background-color: #5294e2;
   -slider-active-border-color: transparent;
@@ -179,7 +179,7 @@ StScrollBar {
 
 .modal-dialog {
   color: #D3DAE3;
-  background-color: rgba(56, 60, 74, 0);
+  background-color: rgba(47, 47, 47, 0);
   border: none;
   border-image: url("dark-assets/misc/modal.svg") 9 9 9 67;
   padding: 0 5px 6px 5px; }
@@ -401,7 +401,7 @@ StScrollBar {
   spacing: 20px; }
 
 .audio-selection-device {
-  border: 1px solid #2b2e39;
+  border: 1px solid #202020;
   border-radius: 3px; }
   .audio-selection-device:active, .audio-selection-device:hover, .audio-selection-device:focus {
     background-color: #5294e2;
@@ -826,7 +826,7 @@ StScrollBar {
 .message-list-section-title,
 .events-section-title {
   padding: 7px 10px 7px 10px;
-  border: 1px solid rgba(64, 69, 82, 0); }
+  border: 1px solid rgba(34, 34, 34, 0); }
   .datemenu-today-button:hover, .datemenu-today-button:focus,
   .world-clocks-button:hover,
   .world-clocks-button:focus,
@@ -836,20 +836,20 @@ StScrollBar {
   .message-list-section-title:focus,
   .events-section-title:hover,
   .events-section-title:focus {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #D3DAE3;
-    background-color: #505666;
-    border: 1px solid #2b2e39;
-    box-shadow: inset 0 1px rgba(80, 86, 102, 0.05); }
+    background-color: #343434;
+    border: 1px solid #202020;
+    box-shadow: inset 0 1px rgba(52, 52, 52, 0.05); }
   .datemenu-today-button:active,
   .world-clocks-button:active,
   .weather-button:active,
   .message-list-section-title:active,
   .events-section-title:active {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #ffffff;
     background-color: #5294e2;
-    border: 1px solid #2b2e39;
+    border: 1px solid #202020;
     box-shadow: inset 0 1px rgba(82, 148, 226, 0.05); }
 
 .datemenu-today-button .date-label {
@@ -974,7 +974,7 @@ StScrollBar {
   padding: 0.5em 0 0;
   margin: 6px;
   background-color: rgba(211, 218, 227, 0.3);
-  color: #383C4A; }
+  color: #2f2f2f; }
 
 .message-list {
   width: 31.5em; }
@@ -1069,11 +1069,11 @@ StScrollBar {
   icon-size: 32px; }
   .media-message-cover-icon.fallback {
     color: rgba(211, 218, 227, 0.45);
-    background-color: #383C4A;
+    background-color: #2f2f2f;
     border-radius: 2px;
     icon-size: 16px;
     padding: 8px;
-    border: 1px solid #2b2e39; }
+    border: 1px solid #202020; }
 
 .ripple-box {
   width: 52px;
@@ -1129,9 +1129,9 @@ StScrollBar {
   .nm-dialog-header-icon {
     icon-size: 32px; }
   .nm-dialog-scroll-view {
-    border: 1px solid #2b2e39;
+    border: 1px solid #202020;
     border-radius: 2px;
-    background-color: #404552; }
+    background-color: #222222; }
   .nm-dialog-header {
     font-weight: bold;
     font-size: 1.2em; }
@@ -1187,7 +1187,7 @@ StScrollBar {
   padding: 7px 9px;
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  background-color: rgba(64, 69, 82, 0.9); }
+  background-color: rgba(34, 34, 34, 0.9); }
   .search-entry:focus {
     padding: 7px 9px; }
   .search-entry .search-entry-icon {
@@ -1348,13 +1348,13 @@ StScrollBar {
 
 .app-view-control {
   padding: 4px 32px;
-  text-shadow: 0 1px rgba(64, 69, 82, 0);
+  text-shadow: 0 1px rgba(34, 34, 34, 0);
   color: #BAC3CF;
   border: 1px solid rgba(26, 28, 34, 0.35);
   background-color: rgba(102, 109, 132, 0.35);
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
   .app-view-control:hover {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #BAC3CF;
     border: 1px solid rgba(26, 28, 34, 0.35);
     background-color: rgba(119, 127, 151, 0.45);
@@ -1606,7 +1606,7 @@ StScrollBar {
   spacing: 8px;
   border-radius: 4px; }
   .hotplug-resident-mount:hover {
-    background-color: rgba(56, 60, 74, 0.3); }
+    background-color: rgba(47, 47, 47, 0.3); }
 
 .hotplug-resident-mount-label {
   color: inherit;
@@ -1683,25 +1683,25 @@ StScrollBar {
   font-weight: bold;
   border-radius: 3px;
   box-shadow: none;
-  text-shadow: 0 1px rgba(64, 69, 82, 0);
+  text-shadow: 0 1px rgba(34, 34, 34, 0);
   color: #BAC3CF;
   border: 1px solid rgba(26, 28, 34, 0.35);
   background-color: rgba(102, 109, 132, 0.35);
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
   .keyboard-key:hover {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #BAC3CF;
     border: 1px solid rgba(26, 28, 34, 0.35);
     background-color: rgba(119, 127, 151, 0.45);
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
   .keyboard-key:active, .keyboard-key:checked {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #ffffff;
     border: 1px solid rgba(26, 28, 34, 0.35);
     background-color: #5294e2;
     box-shadow: inset 0 1px rgba(82, 148, 226, 0.05); }
   .keyboard-key:grayed {
-    text-shadow: 0 1px rgba(64, 69, 82, 0);
+    text-shadow: 0 1px rgba(34, 34, 34, 0);
     color: #5d626e;
     border: 1px solid rgba(26, 28, 34, 0.35);
     background-color: rgba(102, 109, 132, 0.2);
@@ -1777,29 +1777,29 @@ StScrollBar {
   .login-dialog .modal-dialog-button {
     padding: 3px 18px; }
     .login-dialog .modal-dialog-button:default {
-      text-shadow: 0 1px rgba(64, 69, 82, 0);
+      text-shadow: 0 1px rgba(34, 34, 34, 0);
       color: #D3DAE3;
-      background-color: #444a58;
-      border: 1px solid #2b2e39;
-      box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+      background-color: #272727;
+      border: 1px solid #202020;
+      box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
       .login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus {
-        text-shadow: 0 1px rgba(64, 69, 82, 0);
+        text-shadow: 0 1px rgba(34, 34, 34, 0);
         color: #D3DAE3;
-        background-color: #505666;
-        border: 1px solid #2b2e39;
-        box-shadow: inset 0 1px rgba(80, 86, 102, 0.05); }
+        background-color: #343434;
+        border: 1px solid #202020;
+        box-shadow: inset 0 1px rgba(52, 52, 52, 0.05); }
       .login-dialog .modal-dialog-button:default:active {
-        text-shadow: 0 1px rgba(64, 69, 82, 0);
+        text-shadow: 0 1px rgba(34, 34, 34, 0);
         color: #ffffff;
         background-color: #5294e2;
-        border: 1px solid #2b2e39;
+        border: 1px solid #202020;
         box-shadow: inset 0 1px rgba(82, 148, 226, 0.05); }
       .login-dialog .modal-dialog-button:default:insensitive {
-        text-shadow: 0 1px rgba(64, 69, 82, 0);
+        text-shadow: 0 1px rgba(34, 34, 34, 0);
         color: rgba(211, 218, 227, 0.45);
-        border: 1px solid rgba(43, 46, 57, 0.55);
-        background-color: rgba(68, 74, 88, 0.55);
-        box-shadow: inset 0 1px rgba(68, 74, 88, 0.05); }
+        border: 1px solid rgba(32, 32, 32, 0.55);
+        background-color: rgba(39, 39, 39, 0.55);
+        box-shadow: inset 0 1px rgba(39, 39, 39, 0.05); }
 
 .login-dialog-logo-bin {
   padding: 24px 0px; }
@@ -1958,9 +1958,9 @@ StScrollBar {
   background-repeat: repeat; }
 
 #screenShieldNotifications StButton#vhandle, #screenShieldNotifications StButton#hhandle {
-  background-color: rgba(56, 60, 74, 0.3); }
+  background-color: rgba(47, 47, 47, 0.3); }
   #screenShieldNotifications StButton#vhandle:hover, #screenShieldNotifications StButton#vhandle:focus, #screenShieldNotifications StButton#hhandle:hover, #screenShieldNotifications StButton#hhandle:focus {
-    background-color: rgba(56, 60, 74, 0.5); }
+    background-color: rgba(47, 47, 47, 0.5); }
   #screenShieldNotifications StButton#vhandle:active, #screenShieldNotifications StButton#hhandle:active {
     background-color: rgba(82, 148, 226, 0.5); }
 
