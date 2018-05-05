@@ -11,6 +11,8 @@ install-sh
 missing
 .idea/
 dist/
+pkg/
+*.xz
 
 common/**/*.png
 !**/thumbnail.png
