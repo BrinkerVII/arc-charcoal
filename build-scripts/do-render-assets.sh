@@ -14,10 +14,14 @@ echo $ASSETS_DARK
 
 if [ -d "$ASSETS" ]; then
 	rm -rf $ASSETS/*
+else
+	mkdir "$ASSETS"
 fi
 
 if [ -d "$ASSETS_DARK" ]; then
 	rm -rf $ASSETS_DARK/*
+else
+	mkdir "$ASSETS_DARK"
 fi
 
 cd $SCRIPT_DIR
