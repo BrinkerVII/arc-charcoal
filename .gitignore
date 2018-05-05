@@ -13,5 +13,5 @@ missing
 dist/
 
 common/**/*.png
-!**/tumbnail.png
-!**/tumbnail-dark.png
+!**/thumbnail.png
+!**/thumbnail-dark.png
