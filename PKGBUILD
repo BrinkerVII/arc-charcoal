@@ -1,7 +1,7 @@
 pkgname=arc-charcoal-gtk-theme-git
 pkgver=1.0
 pkgrel=1
-pkgdesc="Arc-Dark, but cripspier"
+pkgdesc="Arc-Dark, but crispier"
 arch=('any')
 licence=('GPL3')
 pkgdepends=('gnome-themes-standard' 'gtk-engine-murrine')
